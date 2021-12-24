@@ -18,11 +18,11 @@ CSS koduyla bir metne özellik vermek istediğimizde metin <em>içerisinde kapsa
         </tr>
         <tr>
             <td>em{border: inherit;}</td>
-            <td><b>em</b> etiketinin içerisinde bulunan metnine de kenarlık ekle. Yani ayrı bir border ekler.</td>
+            <td><b>em</b> etiketinin içerisinde bulunan metni de border(kenarlık) özelliğine dahil et.</td>
         </tr>
         <tr>
             <td>b{color:initial;}</td>
-            <td><b>b</b> etiketinin içerisindeki yazı rengi varsayılan olarak ayarla.</td>
+            <td><b>b</b> etiketinin içerisindeki yazı rengini(color) dahil etme. Yani varsayılan olarak kalsın demektir.</td>
         </tr>
     </tbody>
 </table> 
