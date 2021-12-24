@@ -1,0 +1,8 @@
+div{color: red;} /*div içerisindeki tüm etiketlerin yazı rengini belirlemek için kullanılır. */
+div p{background-color: sandybrown;} /*div etiketinin altındaki tüm p(paragraf) etkiketlerinin arka plan rengini ayarlamak için kullanılır.*/
+.etiket1 div{border: 1px solid black;} /*class="etiket1" oltındaki div etiketlerinin kutu kenarlığını ve rengini belirle.*/
+.etiket1 div.box1{text-align: center;} /*class="etiket1" etiketli class="box1" etiketli div etiketlerinin yazılarını ortala.*/
+div,p{font-style: italic;} /*Sayfadaki tüm div ve p etiketlerinin yazı stilini ayarla.(bir nevi CSS'de toplama özelliği olarak düşünebilirsiniz.)*/
+div.box1, p{font-size: 20px;} /*class="box1" olan divleri ve tüm p(paragraf) etiketlerinin yazı boyutunu ayarla.*/
+div>p{line-height: 60px;} /*Bir üst etiketi div olan p etiketlerinin genişliğini belirlemek.*/
+p+div{font-variant: small-caps;}  /*P etiketinden hemen sonra gelen ilk divin karakterlerini büyük yap.*/
