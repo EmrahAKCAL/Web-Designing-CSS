@@ -1,0 +1,2 @@
+<h1>CSS'de Inheritance Nedir?</h1>
+    <p>CSS koduyla bir metne özellik vermek istediğimizde metin <em>içerisinde uygalnmasını istemediğimiz</em> bölümler olabilir. Bunun için etiketi <b>inherit</b> veya iptal etmek için ise <b>initial</b> yapmamız gerekir. </p>
