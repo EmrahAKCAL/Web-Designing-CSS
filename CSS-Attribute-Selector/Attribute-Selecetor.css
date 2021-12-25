@@ -1,0 +1,11 @@
+h1{text-align: center; color: blue;}/*h1 etiketleri*/
+p[title]{border: 2px solid brown;} /*title etiketi olan bütün p etiketleri*/
+p[title="birinci paragraf"]{color: red;} /*title="birinci paragraf" olan bütün p etiketleri*/
+p[title~="birinci"]{background-color: gold;}/*title etiketin içerisinde "birinci" kelimesi olan bütün p etiketleri*/
+p[title="ikinci paragraf"]{color: green;}/*title="ikinci paragraf" olan tüm p etiketleri*/
+p[title~="ikinci"]{background-color: grey;}/*title etiketin içerisinde "ikinci" kelimesi olan tüm p etiketleri*/
+p {font-size: 20px;} /*Bütün p etiketlerinin yazı boyutu*/
+a[href^="https"]{color: orange;} /*href etiketi https ile başlayan tüm a etiketleri*/
+a[href$="net"]{color: aqua;} /*href etiketi 'net' ile biten bütün a etiketleri*/
+a[href="http://www.google.net"][target="_blank"]{background-color: blue;} /* hem href="http://www.google.net" olan hem de target="_blank" olan bütün a etiketleri*/ 
+*{padding: 20px;} /*tüm etiketlerin kenarlık ile yazı arasındaki mesafeyi artır.*/
