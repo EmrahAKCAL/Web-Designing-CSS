@@ -1,0 +1,32 @@
+.p1{border-style: dotted; border-color: crimson; border-radius: 1px; background-color: blue;}
+.p2{border-style: dashed; border-color: cyan;border-radius: 2px; background-color: blueviolet;}
+.p3{border-style: solid; border-color: darkblue; border-radius: 3px; background-color: brown;}
+.p4{border-style: double; border-color: darkcyan; border-radius: 4px; background-color: burlywood;}
+.p5{border-style: groove; border-color: darkgoldenrod; border-radius: 5px; background-color:cadetblue;}
+.p6{border-style: ridge; border-color: darkgray; background-color: chartreuse;}
+.p7{border-style: inset; border-color: darkgreen; background-color: chocolate;}
+.p8{border-style: outset; border-color: darkmagenta; background-color: coral;}
+.p9{border-style: none; border-color: darkred; background-color: cornflowerblue;}
+.p10{border-style: hidden; border-color: darkviolet; background-color: crimson;}
+.p11 {border-style: dotted dashed solid double;}
+
+/*
+.......Kenarlık stilleri......
+
+dotted - Noktalı bir kenarlık tanımlar
+dashed - Kesikli bir kenarlık tanımlar
+solid - Katı bir sınır tanımlar
+double - Çift kenarlık tanımlar
+groove- 3B oluklu bir kenarlık tanımlar. Etki, kenarlık rengi değerine bağlıdır
+ridge- 3B çıkıntılı kenarlık tanımlar. Etki, kenarlık rengi değerine bağlıdır
+inset- Bir 3B iç kenarlık tanımlar. Etki, kenarlık rengi değerine bağlıdır
+outset- Bir 3B başlangıç ​​sınırı tanımlar. Etki, kenarlık rengi değerine bağlıdır
+none - Sınır tanımlamaz
+hidden - Gizli bir sınır tanımlar
+
+.....Kenarlık Rengi......
+border-color: 
+
+.....Kenarlıkları Yuvarlatma.....
+border-radius: px
+*/
