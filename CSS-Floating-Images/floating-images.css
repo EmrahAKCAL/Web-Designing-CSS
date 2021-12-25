@@ -1,0 +1,14 @@
+#arı{color: #FF9800; text-align: center;}
+.text1, .text2{color: brown}/* class etiketi text1 olan ve text2 olan etiketlerinin yazı rengi*/
+img[src="images/ari-ile-papatya.jpeg"]{width: 200px; float: left; margin-right: 20px;} /*src="images/ari-ile-papatya.jpeg" olan img etiketinin resmin genişliği, sola hizala ve sağ tarafına 20px boşluk yarat.*/
+.text2{overflow: auto;} /*Bu paragrafı içerisinde boyutu hangisi büyük ise ona göre ayarla. Yani resmi boyutu paragraf alanından fazlaysa resmin taşmasını önle.*/
+#tahta{color: 	#1B5E20; text-align: center;}
+.text3, .text4{color: #FF6F00;}
+img[src="images/tahta_canak.jpg"]{width: 300px; float:right; margin-left: 20px; margin-top: 20px; margin-bottom: 10px;}
+.text4{overflow: auto;}
+
+li{list-style: none; display: inline-block;  padding: 25px;} /*li etiketinin içerisindekilerin ön işaretini(list-style) kaldır(none),listeleri blok haline getir ve özellik vermeye izin ver(display: inline-block;), kutu ile yazı arasındaki boşluğu 25px yap.*/
+a{ display: inline-block; margin-right: 50px;}/*a etiketlerin sağ tarafına 5px aralık yap.*/
+ul{background-color: 	#ECEFF1; height: 70px; overflow:hidden; border-radius: 20px;}/*ul etiketinin arka plan rengi ve yükseklik ayarlanmıştır. overflow:hidden özelliğiyle taşan kısmı kaybedilir, border-radius özelliğiyle kenarlıkları yuvarlatılmıştır.*/
+li:hover{background-color: 	#CFD8DC; border-radius: 10px;} /*li etikelerin üzerine gelindiğinde(hover) arka plan rengi ayarlanılmıştır ve kenarlık yuvarlatılmıştır.*/
+li:active{background-color: #64B5F6;}/*li etiketine tıkladığı anda arka plan rengi ayarlanmıştır.*/
