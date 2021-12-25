@@ -1,0 +1,5 @@
+table{ width: 100%; border-collapse:collapse;}
+table th{text-align: left; background-color: #2196F3; color: white;}
+table th, table td{border: 1px solid grey; padding: 6px;}
+table tr:nth-child(even){background-color: #a0a0a0;}
+table tr:hover{background-color: grey;}
