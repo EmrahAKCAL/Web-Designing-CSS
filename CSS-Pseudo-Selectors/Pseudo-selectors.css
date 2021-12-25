@@ -1,0 +1,29 @@
+
+h1, h2{text-align: center;}
+/*            Pseudo Element             */
+p::first-line {word-spacing: 2px; letter-spacing: 1px; color: blue;} /*Tüm p etiketlerinin ilk satırına uygula. word-spacing: kelimeler arası boşluk, letter-spacing: harfler arası boşluk verilmektedir.*/
+p.parag3::first-line{ background-color: gray;}/* class="parag3" olan p etiketinin ilk satırı*/
+p::first-letter{font-size: 30px; color: gold;}/*tüm p etiketlerinin ilk harfini*/
+p::after{content:"--Paragraf Sonu"; color: teal;}/*Tüm p etiketlerinden sonuna "--Paragraf Sonu" ekle*/
+p::before{content: "Paragraf Başlangıcı--"; color: yellow;} /*Tüm p etiketlerinden önüne "Paragraf Başlangıcı--" ekle*/
+
+
+/*            Pseudo class             */
+ul li:first-child{color: red;}/*ul etiketinin içerisinde bulunan ilk li etiketinin yazı rengi*/
+ul li:last-child{color: gold}/*ul etiketinin içerisinde bulunan son li etiketinin yazı rengi*/
+ul li:nth-of-type(even){border: 2px solid brown; padding: 3px; background-color: gold; color: blue;}/*ul etiketinin içerisinde bulunan çift sıralamasında bulunan li etiketler*/
+ul li:nth-of-type(odd){border: 2px solid gold; padding: 3px; background-color: red; color: wheat;} /*ul etiketinin içerisinde bulunan tek sıralamasında bulunan li etiketleri*/
+a{display: block; padding: 5px 8px; text-decoration: none; width: 80px; border: 1px solid blue; margin-bottom: grey; color: wheat;}
+
+a:link{background-color: red;}/*link tıklanılmamış hali*/
+a:hover{background-color: yellow;}/* link üzerine mause ile üzerine geldiğinde*/
+a:active{background-color: blue;}/*linke tıklandığı zaman*/
+a:visited{background-color: purple;}/* link tıklanılmış hali*/
+span{
+    display: none;
+    background-color: yellow;
+    padding: 2px;
+}
+div:hover span{display: block; color: blue;} /*div üzerine geldiğinde span etiketi içerisinde bulunan yazıyı görünür yap.*/
+
+
