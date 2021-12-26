@@ -8,7 +8,6 @@ Beş farklı konum değeri vardır.
 <li><b>absolute:</b> Tarayıcıya göre konumlandırılır.</li>
 <li><b>sticky:</b> Scroll barın durumuna göre konumlanrılmasını sağlar. Genellikle sayfaların menü kısımları için kullanılmaktadır.</li>
 </ul><br><br>
-
 <table>
     <thead>
         <tr>
