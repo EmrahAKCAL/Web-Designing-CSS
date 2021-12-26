@@ -82,6 +82,9 @@ Beş farklı konum değeri vardır.
         <td><b>nav</b> etiketliyi üstten konumu sıfır olduğunda(<b>top: 0px;</b>) scroll barda sabitle(<b>position: sticky;</b>).</td>
         </tr>
     </tbody>
-</table> 
+</table> <br><br>
+<h2>Çalışmanın Görüntüsü Aşağıdaki Gibidir.</h2><br>
+
+![position](https://user-images.githubusercontent.com/48285856/147415674-f0c78922-1717-47e2-a449-b8bffbd84d7a.png)
 <br><br>
 HTML ve CSS codlarını derlemek için <a href="https://codepen.io/pen/">HTML-CSS</a> tıklayınız..
