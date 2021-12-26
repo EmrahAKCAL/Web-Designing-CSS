@@ -1,0 +1,20 @@
+body{background-color: #FAFAD2;} /*Tüm sayfanın arka plan rengi ayarlanmıştır.*/
+.box{ width: 150px;} /*class="box" olan etiketlere genişlik verilmiştir.*/
+#container{float: left; width: 1180px;} /*id="container" olan etiketi sola hizala ve genişlik verilmiştir.*/
+#first-div{background-color: 	#EEE8AA; width: 70%;} /*id="first-div" olan etikete arka plan rengi verilmiştir ve tarayıcının %70 lik kısmını kaplasın*/
+#second-div{background-color: #FFFFE0; width: 70%;} /*id="second-div" olan etikete arka plan rengi verilmiştir ve tarayıcının %70 lik kısmını kaplasın*/
+#block{background-color: #FFE4B5; height: 600px; width: 300px; position:fixed; top: 100px; right: 100px;} /*id="block" olan etikete arka plan rengi, yükseklik-genişlik değerleri verilmiştir. Bu etiketi konumlandırılacak yerde sabitle(position:fixed;), konumu üstten(top) ve sağdan(right) 100px ötele. */
+h2{text-align: center;}
+#data{position: relative; float: right; right: 10px;} /*id="data" olan etiketi bulunduğu konumdan ötele(position: relative;), sağa konumlandır(float: right), sağ tarafından 10px ötele*/
+#container2{position: absolute; left: 60px; top: 20px;} /*id="container2" olan etiketi tarayıcıya göre konumlandır.*/
+#user{position:relative; top: 30px; text-align: center; margin-bottom: 10px;} /*id="user" olan etiketi bulunduğu konumdan ötele(position: relative;)*/
+.links{display: block; margin-top: 10px; position:relative; left: 30px;} /*class="links" olan etiketleri blok haline getir(display:block) ve bulunduğu konumdan ötele(position: relative;)*/
+.links:hover{background-color: 	#CFD8DC;} /*class etiketi links olan etikelerin üzerine gelindiğinde(hover) arka plan rengi ayarlanılmıştır ve kenarlık yuvarlatılmıştır.*/
+
+
+li{list-style: none; display: inline-block;  padding: 25px;} /*li etiketinin içerisindekilerin ön işaretini(list-style) kaldır(none),listeleri blok haline getir ve özellik vermeye izin ver(display: inline-block;), kutu ile yazı arasındaki boşluğu 25px yap.*/
+a{ display: inline-block; margin-right: 50px;}/*a etiketlerin sağ tarafına 5px aralık yap.*/
+ul{background-color: 	#ECEFF1; height: 70px; overflow:hidden; border-radius: 20px; }/*ul etiketinin arka plan rengi ve yükseklik ayarlanmıştır. overflow:hidden özelliğiyle taşan kısmı kaybedilir, border-radius özelliğiyle kenarlıkları yuvarlatılmıştır.*/
+li:hover{background-color: 	#CFD8DC; border-radius: 10px;} /*li etikelerin üzerine gelindiğinde(hover) arka plan rengi ayarlanılmıştır ve kenarlık yuvarlatılmıştır.*/
+li:active{background-color: #64B5F6;}/*li etiketine tıkladığı anda arka plan rengi ayarlanmıştır.*/
+nav{position: sticky; top: 0px;} /*nav etiketliyi üstten konumu sıfır olduğunda(top: 0px) scroll barda sabitle(position: sticky;).*/
