@@ -1,0 +1,8 @@
+h1{text-align: center; color: blue;}/*h1 etiketini tarayıcının ortasına hizala ve rengi mavi olsun*/
+#container{background-color: 	#EEEEEE; width: 60%;} /*id="container" olanetiketin arka plan rengi ve genişliği ayarla*/
+i{margin-right: 10px; font-size: 25px;} /*Tüm i etiketlerinin sağ tarafında 10px boşluk oluştur ve font büyüklüğü 25px olarak ayarla*/
+.box{margin-top: 20px; position: relative; left: 60px;}/*class="box" olan etiketlerin üstte 20px boşluk oluştur, soldan 60px ötele*/
+#youtube{color: red;}
+#instagram{color:black;}
+#facebook{color: blue;}
+#google{color: grey;}
