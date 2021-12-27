@@ -3,9 +3,18 @@
 Beş farklı konum değeri vardır.
 <ul>
 <li><b>static:</b> Varsayılan konumu belirtir.</li>
-<li><b>relative:</b> Bulunduğu konumdan ötele</li>
-<li><b>fixed:</b> Tarayıcıda sabit bir yerde konumlandırır.</li>
-<li><b>absolute:</b> Tarayıcıya göre konumlandırılır.</li>
+<li><b>relative:</b> Bulunduğu konumdan ötele</li><br>
+
+![relative](https://user-images.githubusercontent.com/48285856/147451232-0b85a04e-226d-421c-b43c-0dfbe865b0c0.png)
+    
+<li><b>fixed:</b> Tarayıcıda sabit bir yerde konumlandırır.</li><br>
+    
+ ![fixed](https://user-images.githubusercontent.com/48285856/147451209-07b6d704-65ae-4642-b422-41bcdcb5af60.png)
+    
+<li><b>absolute:</b> Tarayıcıya göre konumlandırılır.</li><br>
+    
+ ![absolute](https://user-images.githubusercontent.com/48285856/147451245-b5448f81-240f-48f8-b7c4-081a36d481ee.png) 
+  
 <li><b>sticky:</b> Scroll barın durumuna göre konumlanrılmasını sağlar. Genellikle sayfaların menü kısımları için kullanılmaktadır.</li>
 </ul><br><br>
 <table>
