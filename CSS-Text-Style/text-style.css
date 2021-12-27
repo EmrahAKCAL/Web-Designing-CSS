@@ -1,0 +1,34 @@
+body{
+    background-color: #F5F5F5;
+}
+h1{
+    color: greenyellow; 
+    text-align: center; /*Yazıyı tarayıcının ortasında hizala*/
+    text-transform: capitalize; /*Her kelimenin ilk harfi büyük harfe çevirir.
+    uppercase; Bütün harfleri büyük harfe çevir.
+    lowercase; Bütün harfleri küçün harfe çevir.*/
+}
+img{
+    width: 400px; /*genişlik verildi*/
+    position: relative; /*Bulunduğu konumdan öteleme yapmaya onay verilir.*/
+    left: 400px;/* Bulunduğu konumdan soldan 400px ötele */
+}
+p{
+    font-family: 'Kalam', cursive; /*Yazının fontu belirtildi*/
+    margin: 30px 70px;  /*alt-üst 30px, sağ ve solda 70px boşluk oluştur.*/
+    font-size: 22px; /*Yazı boyutu 22px ayarlandı*/
+    line-height: 150%; /*Satırlar arası mesafe varsayılanın 150% yapıldı.*/
+    word-spacing: 3px; /*Kelime aralığı*/
+    text-indent: 20px; /*ilk satıra boşluk ekler(paragraf başı)*/
+    letter-spacing: 1px; /*Her harf arası mesafe 1px yapıldı*/
+
+
+}
+span{
+    font-weight: bold; /*yazı genişliği*/
+    font-style: italic; /*yazının stili italik yapıldı*/
+}
+a{
+    color: #03a9f4;
+    text-decoration: none; /*linkin alt çizgisi kaldırıldı */
+}
