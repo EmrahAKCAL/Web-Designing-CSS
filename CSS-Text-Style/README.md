@@ -1,5 +1,6 @@
 <h1>CSS Yazı Tipleri</h1>
 Doğru yazı tipini seçmenin, okuyucuların bir web sitesini nasıl deneyimlediği üzerinde büyük etkisi vardır. <br>
+<a href="https://fonts.google.com/">Google de üzretsiz fontları</a> HTML sayfasında kullanmak için sayfanın  < link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> kısmını HTML dosyanızın head bölümüne ekleyiniz. Daha sonra istediğiniz font-family CSS kodunu kullanın.
 <table>
     <thead>
         <tr>
