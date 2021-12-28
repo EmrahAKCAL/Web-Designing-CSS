@@ -1,0 +1,46 @@
+body{
+    background-color: #f2f2f2;
+}
+h1{
+    color: blue;
+    text-align:center;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0, 0.5); /*Yazı gölgelendirildi.*/
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 2px; 
+    margin: 20px; /* etrafına 20px boşluk*/
+    display: inline-block; /*olabildiğince tarayıcıya sığdır.*/
+}
+.card-1{
+    box-shadow: 10px 20px; /*sağ tarafında 10px altta 20px gölgelendirme yapar.*/
+}
+.card-2{
+    box-shadow: 10px 20px 10px;  /*sağ tarafında 10px altta 20px gölgelendirme yapar ve 10px değerinde dağıtma yapar.*/
+}
+.card-3{
+    box-shadow: 10px 20px 10px 2px;  /*sağ tarafında 10px altta 20px gölgelendirme yapar ve 10px değerinde dağıtma yapar, 2px daha dağıtılma yapar.*/
+}
+.card-4{
+    box-shadow: 10px 20px 10px 2px rgb(0, 0, 0, 0.16);  /* renk varsayılandır ve 0.16 lık opaklık verildi*/
+}
+.card-5{
+    box-shadow: 10px 20px 10px 2px rgb(255, 0, 0, 0.5);  /* renk kırmızı ve 0.5 lık opaklık verildi*/
+}
+
+.card-img{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 2px; 
+    margin: 20px; /* etrafına 20px boşluk*/
+    display: inline-block; /*olabildiğince tarayıcıya sığdır.*/
+}
+.card-img{
+    box-shadow: 10px 20px 10px 2px rgb(0, 0, 0, 0.5);  /* renk kırmızı ve 0.5 lık opaklık verildi*/
+}
+img{
+    width: 100%;
+    height: 100%;
+}
