@@ -1,0 +1,27 @@
+*{margin: 0; padding: 0;}
+.header{
+    height: 70vh; /*Tarayıcının 70% lik kısmını kaplar*/
+    background-image: 
+    linear-gradient(rgba(153, 255, 204, 0.4),rgba(0, 204, 102, 0.4)), /*Resmin üzrine linear renk verildi*/
+     url(images/sultan-sazligi.jpg) ; 
+    background-size: cover; /*Resmi sayfaya olduğu gibi sığması için kırpar.*/
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%); /*Resmi x-y eksenlerinde kesme işlemidir. (sol üst köşe, sağ üst köşe, sağ alt köşe, sol alt köşe)*/
+}
+.heading{
+    color: white;
+    text-align: center;
+    position:absolute;
+    top: 10%;
+    left: 30%;
+}
+.heading-main{
+    display: block;
+    font-size: 50px;
+    letter-spacing: 10px; /*harf arası mesafe*/
+    text-transform: uppercase; /*Tüm harfleri büyük harfe çevirir.*/
+}
+.heading-sub{
+    display: block;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
