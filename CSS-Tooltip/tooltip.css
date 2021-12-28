@@ -1,0 +1,95 @@
+body{
+    margin: 100px; /*body kısmının etrafında 100px boşluk yapıldı*/
+    background-color: #E0E0E0;
+} 
+h1{
+    text-align: center;
+    color: green;
+}
+p{
+    letter-spacing: 1px;
+    font-size: 19px;
+    word-spacing: 3px;
+}
+.border{
+    border: 1px solid rgb(95, 81, 81); /*etrafına kenarlık eklenildi*/
+    padding: 10px; /*içerisi ile çerçeve arasına 10px mesafe oluşturuldu*/
+    margin-right: 50px; /*Sağ tarafına 50px boşluk yapıldı*/
+    background-color: white;
+}
+/*Gözükmeyecek Kısmın CSS Kodu*/
+.tooltip .text{
+    display: none;/*Yazılar görünmez yapıldı.*/
+    width: 120px; /*Gözükmeyen kısmın genişliği 120px yapıldı.*/
+    background-color: #5f4646; /*Arka plan rengi verildi*/
+    color: #fff; /*Yazı Rengi verildi*/
+    text-align: center; /*Yazıyı ortaya hizalamasını sağlar*/
+    border-radius: 5px; /*Kööşeleri 5px yuvarlattı*/
+    padding: 5px 0; /*İçerik ile çerçeve arasında üst-alt 5px sağ-solda ise 0 mesafe bırakıldı*/
+    position: absolute; /* bulunduğu konumdan itibaren konumlandırılmasını sağlayacaktır.*/
+    z-index: 1; /*Ön plana getirmesini sağlayacaktır.*/
+}
+.tooltip{
+    position: relative;
+}
+.tooltip:hover .text{
+    display: inline-block; /*tooltip etiketin üzerine geldiğinde text etiketlileri inline blok yap.*/
+}
+.top{
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px; 
+}
+.top::after{
+    content: ""; /*Boş bir nesne eklenildi.*/
+    position: absolute;
+    top: 100%; 
+    left: 50%; /*sağdan veya soldan 50% ötele(yani ortala)*/
+    border-width: 5px; /*Kenarlık genişliği 5px*/
+    border-style: solid; /*Kenarlık stili solid(düz bir çizgi)*/
+    border-color: #5f4646 transparent transparent transparent; /*Oluşturulan karenin üst kısmına tek renk verildi.*/
+    margin-left: -5px; /*Şekli 5px sola yakınlaştır*/
+}
+.right{
+    left: 105%;
+    top: 5px; 
+}
+.right::after{
+    content: ""; /*Boş bir nesne eklenildi.*/
+    position: absolute;
+    right: 100%; 
+    top: 50%; /*yukardan veya alttan 50% ötele(yani ortala)*/
+    border-width: 5px; /*Kenarlık genişliği 5px*/
+    border-style: solid; /*Kenarlık stili solid(düz bir çizgi)*/
+    border-color: transparent #5f4646 transparent transparent; /*Oluşturulan karenin sadece sağ kısmına renk verildi.*/
+    margin-top: -5px; /*Şekli 5px yukarıya yakınlaştır*/
+}
+.bottom{
+    top: 120%;
+    left: 50%;
+    margin-left: -60px; 
+}
+.bottom::after{
+    content: ""; /*Boş bir nesne eklenildi.*/
+    position: absolute;
+    bottom: 100%; 
+    left: 50%; /*sağdan veya soldan 50% ötele(yani ortala)*/
+    border-width: 5px; /*Kenarlık genişliği 5px*/
+    border-style: solid; /*Kenarlık stili solid(düz bir çizgi)*/
+    border-color: transparent transparent #5f4646 transparent; /*Oluşturulan karenin üst kısmına tek renk verildi.*/
+    margin-left: -5px; /*Şekli 5px sola yakınlaştır*/
+}
+.left{
+    right: 105%;
+    top: 5px;  
+}
+.left::after{
+    content: ""; /*Boş bir nesne eklenildi.*/
+    position: absolute;
+    left: 100%; 
+    top: 50%; /*yukardan veya alttan 50% ötele(yani ortala)*/
+    border-width: 5px; /*Kenarlık genişliği 5px*/
+    border-style: solid; /*Kenarlık stili solid(düz bir çizgi)*/
+    border-color: transparent transparent transparent #5f4646 ; /*Oluşturulan karenin sadece sol kısmına renk verildi.*/
+    margin-top: -5px; /*Şekli 5px yukarıya yakınlaştır*/
+}
