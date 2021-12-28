@@ -1,0 +1,86 @@
+body{background-color: #f2f2f2;}
+.card-img{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 2px; 
+    margin: 20px; /* etrafına 20px boşluk*/
+    display: inline-block; /*olabildiğince tarayıcıya sığdır.*/
+    box-shadow: 10px 20px 10px 2px rgb(0, 0, 0, 0.5);  /* renk kırmızı ve 0.5 lık opaklık verildi*/
+    transition: width 2s; /* geişlik efekle değiştirilecek ve işlemi 2 saniyede tamamla*/
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.card-img:hover{
+    width: 250px;
+    box-shadow: blue;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(128, 15, 15);
+    border-radius: 2px;
+    margin: 20px;
+    display: inline-block;
+}
+.box1{
+    transition: width 2s, height 3s; /*genişlik değiştirilecek- işlemi 2 saniyede tamamla, yükseklik değiştirilecek-işlemi 3 saniyede tamamla.*/
+}
+.box1:hover{
+    width: 250px; /*hover olduğunda 250px yap*/
+    height: 250px;
+}
+.box2{
+    transition: width 2s, height 2s, background-color 3s; /* + arka plan da değiştirileceği belirtildi.*/ 
+}
+.box2:hover{
+    width: 250px; 
+    height: 250px;
+    background-color: blue; /*arka plan rengi mavi yap*/
+}
+
+.box3{
+    transition: width 2s, height 2s, background-color 3s; 
+}
+.box3:hover{
+    width: 250px; 
+    height: 250px;
+    background-color:white;
+}
+#box3{
+    transition-timing-function:ease; /*Geçiş efekti başlangıçta ve sonda yavaş ortada ise hızlı olur(varsayılandır).*/
+}
+.box4{
+    transition: width 2s, height 2s, background-color 3s; 
+}
+.box4:hover{
+    width: 250px; 
+    height: 250px;
+    background-color:yellow;
+}
+#box4{
+    transition-timing-function:linear; /*Geçiş efekti hep aynı hızda devam eder..*/
+}
+.box5{
+    transition: width 2s, height 2s, background-color 3s; 
+}
+.box5:hover{
+    width: 250px; 
+    height: 250px;
+    background-color: green;
+}
+#box5{
+    transition-timing-function: ease-in; /*Geçiş efekti başlangıçta yavaş sonra hızlanır.*/
+}
+.box6{
+    transition: width 2s, height 2s, background-color 3s; 
+}
+.box6:hover{
+    width: 250px; 
+    height: 250px;
+    background-color:orangered;
+}
+#box6{
+    transition-timing-function: ease-out; /*Geçiş efekti başlangıçta hızlı sonra yavaşlar.*/
+}
