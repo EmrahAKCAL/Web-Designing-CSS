@@ -1,0 +1,54 @@
+
+body{background: #F5F5F5;}
+ul{
+    list-style: none; /*listelerin işaretleri kaldırıldı*/
+    padding: 0; /*Tarayıcı tarafından varsayılan boşluklar sıfırlandı*/
+    margin: 0;
+    position: absolute; /*ul etiketlerini istediğimiz gibi konumalndırmaya onay verildi.*/
+}
+.links{
+    display: inline-block; /*listeleri tek satır haline getirildi*/
+    margin-right: 2px; /*sağ taraflarına 2px boşluk verildi.*/
+}
+.links a{ /*class="links" olan etiketinin altındaki a etiketleri*/
+    display: block; /*blok haline getirildi*/
+    background: #9E001D; /*arka plan rengi verildi*/
+    min-width: 140px; /*minimum genişlik verildi.(en geniş bloka göre ayarlanması için)*/
+    color: white; /*yazı rengi verildi*/
+    text-decoration: none; /*alt çizgiler kaldırıldı*/
+    height: 50px; /*genişlik verildi*/
+    line-height: 50px; /*satır yüksekliği*/
+    text-align: center; /*yazıları ortaya hizala*/
+    font-family: 'Noto Serif', serif; /*yazı fontu*/
+}
+.links a:hover{ /*class="links" olan etiketinin altındaki a etiketlerinin üzerine gediğinde(hover)*/
+    background: darkcyan; /*arka plan rengi*/
+}
+.links:hover .menu a{ /*class="links" olan etiketinin üzerine geldiğinde class="menu" olan etiketinin altındaki a etiketi*/
+    background: #E0E0E0; /*arka plan rengi*/
+    color: rgb(0, 0, 0); /*yazı rengi*/
+    line-height: 40px; /*satır yüksekliği*/
+    height: 40px; /*blok yüksekliği*/
+}
+.links:hover .menu a:hover{ /*class="links" olan etiketinin üzerine geldiğinde class="menu" olan etiketinin altındaki a etiketinin de üzerine geldiğinde*/
+    background: darkcyan;  /*arka plan rengi*/
+    color: white; /*yazı rengi*/
+}
+.menu li{ 
+    display: block; /*blok haline getir*/
+    float: none; /*öteleme kaldırıldı*/
+}
+.menu li a{
+    text-align: left; /*sol tarafa hizala*/
+    padding: 0 20px; /*üst-alt 0px, sağ ve solda ise 20px boşluk verildi*/
+    min-width: 100px; /*minimum genişlik*/
+}
+.menu{
+    display: none;
+}
+.links:hover a{
+    background: darkcyan;
+}
+.links a:hover+ .menu, .menu:hover{ /*class="links" etiketinin altında bulunan class="menu" olan etiketinin önceki ilk a etiketinin üzerine geldiğinde ve class="menu" etiketinin de üzerinde olduğunda*/
+    display: block;
+}
