@@ -1,0 +1,30 @@
+h1{
+    background-color: lightgrey;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5rem; /*yazı boyutu 1.5rem=15px*/
+}
+p{
+    background-color: blue;
+    padding: 25px;
+    text-align: center;
+    font-size: 1rem; /*yazı boyutu 1rem=10px*/
+}
+@media screen and (min-width: 700px){ /*tarayıcının minimum genişliği 700px olduğunda aşağıdaki işlemleri gerçekleştir*/
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (min-width: 1200px){ /*tarayıcının minimum genişliği 1200px olduğunda aşağıdaki işlemleri gerçekleştir*/
+    h1{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    
+}
