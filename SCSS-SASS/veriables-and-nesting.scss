@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding:0;
+  }
+  /*SCSS Labels*/
+  $color-white: #fff;
+  $nav-background:  #960222;
+  $btn-background: #4d6b96;
+  $btn-width: 100px;
+  
+  nav{
+    margin: 10px;
+    background-color:$nav-background;
+    height: 90px;
+  }
+  /*Nav-Left*/
+  .nav-left{
+    list-style: none;
+    float: left;
+    li{
+    display: inline-block;
+    margin-left: 40px;
+      &:first-child{
+        margin: 0;
+      }
+      a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $color-white;
+        display: inline-block;
+        padding: 10px;
+        line-height: 60px;
+        i{
+          margin-right: 5px;
+        }
+      }
+  }
+    
+  }
+  /*Nav- Right*/
+  .nav-right{
+    float: right;
+  } 
+  .clearfix::after {
+   clear: both;
+    content: "";
+    display: block;
+  }
+  
+  .btn-login, .btn-signup{
+    padding: 10px;
+    display: inline-block;
+    width: $btn-width;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-white;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top:20px;
+  }
+  .btn-login{
+    &:link{
+      background-color: $btn-background;
+    }
+    &:hover{
+      background-color: lighten($btn-background, 20%)
+    }
+  }
+  .btn-signup{
+    &:link{
+      background-color: $btn-background;
+    }
+    &:hover{
+      background-color: darken($btn-background, 20%)
+    }
+  }
