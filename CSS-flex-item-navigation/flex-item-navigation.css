@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav {		
+    display: flex; /*tek satır haline getir.*/
+    justify-content: flex-end; /*solda hizala*/
+    list-style: none; 
+    background-color: brown;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase; /*Yazıları büyük harfe çevir*/
+    display: block;
+    padding: 16px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.nav a:hover {
+    background-color: cadetblue;
+}
+
+@media screen and (max-width: 800px) {
+    .nav {
+        justify-content: space-around; /*tarayıcıya sığdır ve aralarında eşit mesafe bırak*/
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column; /*colun haline getir(alt alta)*/
+    }
+    
+    .nav a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255,255,255,0.3);
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    
+    .nav li:last-child a {
+        border-bottom: none;
+    }
+}
+.box ul{
+    display: flex;
+    list-style: none;
+    background-color: rgb(87, 65, 65);
+    height: 200px;
+    margin-top: 50px;
+}
+.box a{
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: block;
+    padding: 16px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: green;
+}
+.box a:hover{
+    opacity: 0.4;
+}
+.link1{
+    align-self:center; /*elemanı bulunduğu konumda ortala*/
+    order: 0; /*elemanın sırası*/
+    
+}
+.link2{
+    align-self:baseline;
+    order: 1;
+}
+.link3{
+    align-self:flex-end;
+    flex-grow: 1; /*tarayıcı genişliği değiştiği zaman ne oranda değişeceği*/
+}
+.link4{
+    order: -1;/*elemanı en başa al*/
+    flex-grow: 2; 
+}
