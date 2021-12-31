@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: orangered;
+    padding: 10px;
+    display: flex; /*elemanları bir satırda yanyana geirir(inline-block).*/
+   /*flex-direction: row-reverse; /*elemanları satırda tersten sıralar */
+   /*flex-direction: column; /*elemanları alt alta getirir. reverse: sıralamayı tersten yapar.*/
+   /*flex-wrap: wrap; /*container küçüldükçe sığmayan eleman alta gelir*/
+   /*justify-content: center;/*Elemanları ortada hizalar*/
+   /*justify-content: flex-start; /*elemanları solda hizalar*/
+   /*justify-content: flex-end; /*elemanları sağda hizalar*/
+  /* justify-content: space-between; /*elemanlar arasında eşit mesafe bırakır ve elemanlar tarayıcıya sığdırır.*/
+  justify-content: space-evenly;/*elemanların sağında ve solunda eşit mesafe bırakır.*/
+
+ /* align-items: stretch;/*Dikeyde varsayılan özellik*/
+ /* align-items: flex-start; /*dikeyde en üstte hizalanır*/
+ /* align-items: center; /*dikeyde ortada hizala*/
+ /* align-items: flex-end; /*dikeyde en altta hizalanır*/
+ /* align-items: baseline; /*içeriğindeki yazıların en alt      sınırında hizalama yapar.*/
+
+}
+.i3{
+    height: 200px;
+}
+.item{
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 25px;
+    margin: 25px;
+}
